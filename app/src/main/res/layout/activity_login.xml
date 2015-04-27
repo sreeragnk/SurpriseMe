@@ -52,6 +52,7 @@
             android:text="@string/btn_login"
             android:textColor="@color/btn_login" />
 
+
         <!-- Link to Login Screen -->
 
         <Button
@@ -64,6 +65,13 @@
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="15dp" />
+
+        <!-- Google Plus-->
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btn_sign_in"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
     </LinearLayout>
 
 </LinearLayout>
